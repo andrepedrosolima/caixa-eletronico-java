@@ -9,7 +9,7 @@ public class CaixaEletronico {
         System.out.print("Valor para saque: ");
         int valor = sc.nextInt(); // Valor que o usuário quer sacar
 
-        int[] notas = {100, 50, 20, 10, 5, 2}; // Notas disponíveis no caixa
+            int[] notas = {100, 50, 20, 10, 5, 2}; // Notas disponíveis no caixa
         for (int nota : notas) { //Para cada nota dentro de notas faça...
             int quantidade = valor / nota; //Quantas notas dessa denominação serão entregues
             if (quantidade > 0) { //Se quantidade for maior que 0, faça oq estiver dentro das chaves
